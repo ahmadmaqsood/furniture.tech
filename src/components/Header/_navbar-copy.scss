@@ -1,0 +1,48 @@
+$danger:#fae1dd;
+.navbar-copy{
+    .container-fluid{
+        .extra-links{
+            .account{
+                display: inline-block;
+                .nav-link{
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        .navbar-collapse{            
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and  (max-width:991.5px){
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                img{
+                    width: 80px !important;
+                }
+            }
+            .extra-links{
+                text-align: center;
+                margin-top: 20px;                
+            }
+            .navbar-collapse{            
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            margin-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

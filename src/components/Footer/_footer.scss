@@ -1,0 +1,17 @@
+$danger:#fae1dd;
+.footer{
+    width: 100%;
+    height: 468px;
+    position: absolute;
+    background-color:$danger;
+}
+    .footer-container{
+        left: 2%;
+        width: 98%;
+        background-color: #1c2541;
+        position: absolute;
+    }
+.text-decoration-none.text-secondary:hover{
+    color: white !important;
+
+}

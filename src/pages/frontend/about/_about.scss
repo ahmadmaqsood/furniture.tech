@@ -1,0 +1,59 @@
+$info:#ff7f51;
+$danger:#fae1dd;
+.container-fluid{
+    .about{
+        z-index: 1;
+        .row{
+            .col{
+            background-color: $danger;
+            width: 100%;
+            position: relative;
+            height: 35vh;
+                .div2{
+                    position:absolute;
+                    background-color: $danger;
+                    right: 0%;
+                    width: 85%;
+                    height: 45vh;
+                }
+                .div3{
+                    position: absolute;
+                    width: 95%;
+                    background-image: url(https://wallpaperaccess.com/full/2076086.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 35vh;
+                }                
+            }
+        }
+    }
+}
+.lorum,.map{
+    margin-top: 180px;
+}
+
+
+@media only screen and (max-width:768px){
+    .container-fluid{
+        .about{
+
+            .row{
+                .col{
+                height: 25vh;
+                    .div2{
+                        height: 29vh;
+                    }
+                        .div3{
+                            width: 95%;
+                            height: 25vh;
+                            right: 2%;
+                        }                
+            }
+        }
+    }
+}
+.lorum,.map{
+    margin-top: 90px;
+}
+
+}

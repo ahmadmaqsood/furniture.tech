@@ -1,0 +1,64 @@
+$info:#ff7f51;
+$danger:#fae1dd;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 27vh
+}
+.fa-instagram{
+    font-size:70px;
+}
+.btn-outline-info:hover{
+    color: white;
+}
+.icons{
+    font-weight: bold;
+    font-size: 40px;
+}
+//product styling
+.card-image{
+    overflow: hidden;
+}
+.cart-products{
+    height: 500px;
+}
+.cart-products:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cart-products:hover .card-image img,.card-image:hover img{
+    transition: 1.5s;
+    transform: scale(1.3);
+}
+.cart-table{
+    thead{
+        tr{
+            th{
+               min-width: 160px;
+               
+            }
+        }
+    }
+    tbody{        
+        tr{
+            td{
+                min-width: 160px;
+    
+            }
+        }
+    }
+}
+//scrollbar styling
+::-webkit-scrollbar{
+    background-color: white;
+    width: 15px;   
+}
+::-webkit-scrollbar-thumb{
+    background-color:#bcbcbc;
+}
