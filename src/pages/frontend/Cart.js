@@ -1,5 +1,5 @@
 import Navbar from 'components/Header/Navbar-copy'
-import { firestore } from 'config/Firebase'
+import { auth, firestore } from 'config/Firebase'
 import { AuthContext } from 'Context/AuthContext'
 import { collection, deleteDoc, doc, getDocs, query, where } from 'firebase/firestore/lite'
 import React, { useContext, useEffect, useState } from 'react'
@@ -7,6 +7,8 @@ import TopWallpaper from '../../components/common/Top-wallpaper'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Services from 'components/common/Services'
 import Footer from 'components/Footer/Footer'
+import Details from './Details'
+import { Link } from 'react-router-dom'
 
 export default function Cart() {
     const { user } = useContext(AuthContext)
@@ -44,6 +46,14 @@ export default function Cart() {
         setLoading(false)
     }
 
+    //handle Detail
+    const handleDetail = (product) => {
+        console.log(product);
+        return <>
+            <Details product={product} />
+        </>
+    }
+
     return (
         <>
             <Navbar />
@@ -78,16 +88,17 @@ export default function Cart() {
                                         <tbody>
                                             {documents.map((products, i) => {
                                                 return <tr key={i} >
-                                                    <td>
-                                                        <div >
+                                                    <td >
+                                                        <div className='cart-items'>
                                                             {isloading
                                                                 ? <div className='spinner-border text-secondary d-flex align-items-center me-3'></div>
                                                                 : <img src={products.img} className="me-4" width="100px" height="100px" alt="" />
                                                             }
                                                             <div className="d-block d-md-inline-block">{products.title}</div>
+                                                            <Link className='d-block d-md-none view-details' to={`/details/${products.id}/${products.price}`}>View Details</Link>
                                                         </div>
                                                     </td>
-                                                    <td className='text-center pt-5'>{products.price}</td>
+                                                    <td className='text-center pt-5'>{products.price + "$"}</td>
                                                     <td className='text-center position-relative '>
                                                         <div><button className='btn btn-info btn-sm text-white  mt-4'><ShoppingCartOutlinedIcon />CheckOut</button></div>
                                                         <button type="button" className="btn-close position-absolute end-0 top-0" aria-label="Close" onClick={() => handleDeleteCart(products.firebaseId)}></button></td>

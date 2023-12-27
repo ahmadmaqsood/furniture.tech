@@ -8,7 +8,8 @@ import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 export default function Topbar() {
-  const { dispatch } = useContext(AuthContext)
+  const { dispatch,crntUser } = useContext(AuthContext)
+  
   //handle logout
   const navigate = useNavigate()
   const handleLogout = () => {
@@ -23,11 +24,11 @@ export default function Topbar() {
   }
   return (
     <>
-      <Header className='d-none d-md-block' style={{ padding: 0,border: "1px solid #e0e0e0", borderTop: "none", borderLeft: "none", background: "#fae1dd", }}>
+      <Header className='d-none d-md-block' style={{ padding: 0, border: "1px solid #e0e0e0", borderTop: "none", borderLeft: "none", background: "#fae1dd", }}>
         <div className="d-flex justify-content-between  align-items-center">
           <Breadcrumb style={{ margin: '16px 0 16px 24px' }}>
             <Breadcrumb.Item>Customers</Breadcrumb.Item>
-            <Breadcrumb.Item><strong>List</strong></Breadcrumb.Item>
+            <Breadcrumb.Item><strong>{crntUser.displayName?crntUser.displayName:auth.currentUser.displayName}</strong></Breadcrumb.Item>
           </Breadcrumb>
           <button className='btn btn-info text-white me-4 px-5 rounded-0' onClick={handleLogout}>LOGOUT</button>
         </div>

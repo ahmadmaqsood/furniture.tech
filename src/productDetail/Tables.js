@@ -3,7 +3,7 @@ const tableList=[
     {        
         id:13,
         title:'Stylish table',                
-        price: "300$",
+        price: 300,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -15,7 +15,7 @@ const tableList=[
     {
         id:14,
         title:'A beautiful wooden table',                
-        price: "90$",
+        price: 90,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -25,7 +25,7 @@ const tableList=[
     {
         id:15,
         title:'Black luxury dining table',                
-        price: "200$",
+        price: 200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -37,7 +37,7 @@ const tableList=[
     {
         id:16,
         title:'Luxury table',                
-        price: "243$",
+        price: 243,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -48,7 +48,7 @@ const tableList=[
     {
         id:17,
         title:'Beautiful dinning table',                
-        price: "900$",
+        price: 900,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -60,7 +60,7 @@ const tableList=[
     {
         id:18,
         title:'table with chairs',                
-        price: "700$",
+        price: 700,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -71,7 +71,7 @@ const tableList=[
     {
         id:19,
         title:'Homemade wooden table',                
-        price: "690$",
+        price: 690,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -82,7 +82,7 @@ const tableList=[
     {
         id:20,
         title:'White colored beautiful table',                
-        price: "735$",
+        price: 735,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -94,7 +94,7 @@ const tableList=[
     {
         id:21,
         title:'Unique style table',                
-        price: "480$",
+        price: 480,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -105,7 +105,7 @@ const tableList=[
     {
         id:22,
         title:'A small table ',                
-        price: "100$",
+        price: 100,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -115,7 +115,7 @@ const tableList=[
     {
         id:23,
         title:'A luxury table with 6 chairs',                
-        price: "1500$",
+        price: 1500,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -125,7 +125,7 @@ const tableList=[
     {
         id:24,
         title:'Beautiful table',                
-        price: "420$",
+        price: 420,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>

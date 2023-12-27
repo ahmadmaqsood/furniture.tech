@@ -9,6 +9,7 @@ import Blog from './blog/Index'
 import Cart from './Cart'
 import PrivateRouting from 'PrivateRouting'
 import DiscoverMore from './DiscoverMore'
+import Details from './Details'
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
                 <Route  path='blog' element={<Blog/>}/>
                 <Route  path='discover-more' element={<DiscoverMore/>}/>
                 <Route  path='cart' element={<PrivateRouting Component={Cart}/>}/>
+                <Route  path='details/:productId/:productPrice' element={<Details/>}/>
                 {/* nested routing */}
                 <Route  path='product/*' element={<Product/>}/>
                 

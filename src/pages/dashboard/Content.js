@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import './_dashboard.scss'
 import { updateProfile } from 'firebase/auth';
@@ -6,6 +6,7 @@ import { auth, firestore, storage } from 'config/Firebase';
 import { collection, doc, getDoc, getDocs, query, serverTimestamp, setDoc, where } from 'firebase/firestore/lite';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 import { Progress, Space } from 'antd';
+import { AuthContext } from 'Context/AuthContext';
 
 const initialState = {
     fullName: "",
@@ -17,6 +18,7 @@ const initialState = {
 }
 
 export default function Content() {
+    const {setCurrentUser}=useContext(AuthContext)
     const [state, setState] = useState(initialState)
     //getting data   
     const [ourUser, setOurUser] = useState({})
@@ -43,8 +45,8 @@ export default function Content() {
     //handleChange function for profile picture
     const handleChangeFile = (e) => {
         let file = e.target.files[0]
-        if (file && file.size > 3000000) {
-            return window.toastify("Please choose file size less then 3MB", "error")
+        if (file && file.size > 5000000) {
+            return window.toastify("Please choose file size less then 5MB", "error")
         }
         if (!file) {
             return window.toastify("File not found", "error")
@@ -92,8 +94,9 @@ export default function Content() {
                         photoURL: downloadURL,
                     }).then(() => {
                         data.displayName = auth.currentUser.displayName
-                        data.photoURL = auth.currentUser.photoURL
+                        data.photoURL = auth.currentUser.photoURL                        
                         setOurUser(data)
+                        setCurrentUser(auth.currentUser)
                     }).catch((error) => {
                         window.toastify("Something went wrong in updating name or profile photo", "error")
                     });

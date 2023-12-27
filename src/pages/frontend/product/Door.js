@@ -69,7 +69,7 @@ export default function Door() {
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">{items.title}</h5>
-                                    <div className="card-text ">{items.price}</div>
+                                    <div className="card-text ">{items.price+" $"}</div>
                                     <div className="card-text my-2">{items.rating}</div>
                                     <button className='btn btn-sm btn-info text-white rounded-0 w-100 mx-auto mb-3' onClick={() => handleCart(items)} disabled={isLoading} >
                                         {isLoading ? <div className='spinner-border spinner-border-sm'></div>

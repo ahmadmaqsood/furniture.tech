@@ -3,7 +3,7 @@ const sofaList=[
     {        
         id:1,
         title:'3 seat sofa',                
-        price: "360$",
+        price: 360,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -13,7 +13,7 @@ const sofaList=[
     {
         id:2,
         title:'2 seat colorful sofa',                
-        price: "250$",
+        price: 250,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -24,7 +24,7 @@ const sofaList=[
     {
         id:3,
         title:'black luxury sofa',                
-        price: "900$",
+        price: 900,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -36,7 +36,7 @@ const sofaList=[
     {
         id:4,
         title:'2 seats brown sofa',                
-        price: "193$",
+        price: 193,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
         </div>,
@@ -45,7 +45,7 @@ const sofaList=[
     {
         id:5,
         title:'off-white sofa',                
-        price: "1000$",
+        price: 1000,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -58,7 +58,7 @@ const sofaList=[
     {
         id:6,
         title:'2 sofas',                
-        price: "500$",
+        price: 500,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -68,7 +68,7 @@ const sofaList=[
     {
         id:7,
         title:'Black sofa',                
-        price: "350$",
+        price: 350,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -79,7 +79,7 @@ const sofaList=[
     {
         id:8,
         title:'dining sofa',                
-        price: "225$",
+        price: 225,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -91,7 +91,7 @@ const sofaList=[
     {
         id:9,
         title:'double seat sofa',                
-        price: "180$",
+        price: 180,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
         </div>,
@@ -100,7 +100,7 @@ const sofaList=[
     {
         id:10,
         title:'Yellow covered sofa',                
-        price: "200$",
+        price: 200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -110,7 +110,7 @@ const sofaList=[
     {
         id:11,
         title:'Silver sofa',                
-        price: "450$",
+        price: 450,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -120,7 +120,7 @@ const sofaList=[
     {
         id:12,
         title:'Luxury sofa',                
-        price: "420$",
+        price: 420,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>

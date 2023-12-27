@@ -3,7 +3,7 @@ const chairList=[
     {        
         id:25,
         title:'Stylish Chair',                
-        price: "100$",
+        price: 100,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -14,7 +14,7 @@ const chairList=[
     {
         id:26,
         title:'A peaceful office chair',                
-        price: "120$",
+        price: 120,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -25,7 +25,7 @@ const chairList=[
     {
         id:27,
         title:'Black colored chair',                
-        price: "90$",
+        price: 90,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -35,7 +35,7 @@ const chairList=[
     {
         id:28,
         title:'White pure leather chair',                
-        price: "183$",
+        price: 183,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -47,7 +47,7 @@ const chairList=[
     {
         id:29,
         title:'Camping chair',                
-        price: "90$",
+        price: 90,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
         </div>,
@@ -56,7 +56,7 @@ const chairList=[
     {
         id:30,
         title:'Green colored Beautiful chair',                
-        price: "100$",
+        price: 100,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -67,7 +67,7 @@ const chairList=[
     {
         id:31,
         title:'Luxury chair in white color',                
-        price: "200$",
+        price: 200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -79,7 +79,7 @@ const chairList=[
     {
         id:32,
         title:'Fully comfortable luxury chair',                
-        price: "235$",
+        price: 235,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -91,7 +91,7 @@ const chairList=[
     {
         id:33,
         title:'Wooden chair',                
-        price: "180$",
+        price: 180,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -101,7 +101,7 @@ const chairList=[
     {
         id:34,
         title:'Black colored pure leather chair',                
-        price: "200$",
+        price: 200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -113,7 +113,7 @@ const chairList=[
     {
         id:35,
         title:'A luxury chairs with beautiful design',                
-        price: "150$",
+        price: 150,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -124,7 +124,7 @@ const chairList=[
     {
         id:36,
         title:'Wooden moving chair',                
-        price: "190$",
+        price: 190,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -137,7 +137,7 @@ const chairList=[
     {
         id:37,
         title:'Wooden chair',                
-        price: "140$",
+        price: 140,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>

@@ -21,6 +21,7 @@ const reducer=((state,action)=>{
 export default function AuthContextProvider(props) {
   const [authentication,dispatch]=useReducer(reducer,initialValue)   
   const [userDetail,setUserDetail]=useState({})
+  const [crntUser,setCurrentUser]=useState({})
   const {user, isAuthenticated}=authentication
 
   useEffect(()=>{
@@ -37,7 +38,7 @@ export default function AuthContextProvider(props) {
 
 return (
     <>
-        <AuthContext.Provider value={{authentication,dispatch,userDetail,isAuthenticated,user}} >
+        <AuthContext.Provider value={{authentication,dispatch,userDetail,isAuthenticated,user,crntUser,setCurrentUser}} >
             {props.children}
         </AuthContext.Provider>
     

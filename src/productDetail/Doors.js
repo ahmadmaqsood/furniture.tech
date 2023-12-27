@@ -3,7 +3,7 @@ const doorList=[
     {        
         id:46,
         title:'4 beautiful wooden doors',                
-        price: "1200$",
+        price: 1200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -14,7 +14,7 @@ const doorList=[
     {
         id:47,
         title:'A beautiful brown door',                
-        price: "100$",
+        price: 100,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -26,7 +26,7 @@ const doorList=[
     {
         id:48,
         title:'Curved door',                
-        price: "90$",
+        price: 90,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -37,7 +37,7 @@ const doorList=[
     {
         id:49,
         title:'White wooden door',                
-        price: "110$",
+        price: 110,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -48,7 +48,7 @@ const doorList=[
     {
         id:50,
         title:'Old door',                
-        price: "70$",
+        price: 70,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -59,7 +59,7 @@ const doorList=[
     {
         id:51,
         title:'Double wooden door',                
-        price: "120$",
+        price: 120,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -69,7 +69,7 @@ const doorList=[
     {
         id:52,
         title:'Big main door',                
-        price: "160$",
+        price: 160,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -81,7 +81,7 @@ const doorList=[
     {
         id:53,
         title:'Beautiful door with combination of window',                
-        price: "230$",
+        price: 230,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
         </div>,
@@ -90,7 +90,7 @@ const doorList=[
     {
         id:54,
         title:'3 different styled beautiful doors',                
-        price: "280$",
+        price: 280,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -101,7 +101,7 @@ const doorList=[
     {
         id:55,
         title:'Simple door',                
-        price: "100$",
+        price: 100,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>

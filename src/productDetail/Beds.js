@@ -3,7 +3,7 @@ const bedList=[
     {        
         id:38,
         title:'Stylish Bed with 3 pillows',                
-        price: "1200$",
+        price: 1200,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -15,7 +15,7 @@ const bedList=[
     {
         id:39,
         title:'A beautiful white Bed',                
-        price: "1300$",
+        price: 1300,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -26,7 +26,7 @@ const bedList=[
     {
         id:40,
         title:'A luxury white bed',                
-        price: "1600$",
+        price: 1600,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -39,7 +39,7 @@ const bedList=[
     {
         id:41,
         title:'Small bed for kids',                
-        price: "1000$",
+        price: 1000,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -49,7 +49,7 @@ const bedList=[
     {
         id:42,
         title:'A lovely Bed',                
-        price: "1400$",
+        price: 1400,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -60,7 +60,7 @@ const bedList=[
     {
         id:43,
         title:'Black colored bed',                
-        price: "900$",
+        price: 900,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
         </div>,
@@ -69,7 +69,7 @@ const bedList=[
     {
         id:44,
         title:'Stylish Bed',                
-        price: "1690$",
+        price: 1690,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
@@ -81,7 +81,7 @@ const bedList=[
     {
         id:45,
         title:'Colorful beautiful bed',                
-        price: "1230$",
+        price: 1230,
         rating: <div>
             <StarRoundedIcon className='text-warning'/>
             <StarRoundedIcon className='text-warning'/>
